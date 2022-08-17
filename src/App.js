@@ -54,14 +54,14 @@ function App() {
     </div>
     )}
     {isSubmitted && (
-      <Summit_state items={items} setIsSubmitted={setIsSubmitted} />
+      <Summit items={items} setIsSubmitted={setIsSubmitted} />
     )}
   </>
   );
 }
 
 
-const Summit_state = ({ items }) =>{
+const Summit = ({ items }) =>{
   return (
   <div>
     {/* Card of submitted state */}
